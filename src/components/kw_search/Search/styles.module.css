@@ -1,0 +1,7 @@
+.search {
+    @apply mr-4 h-10 self-center outline-none w-[100%] rounded pl-1 text-sm;
+}
+
+.heading{
+    @apply text-start m-2 font-medium;
+}

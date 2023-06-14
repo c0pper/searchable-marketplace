@@ -1,0 +1,23 @@
+.wrapper {
+    @apply col-span-5;
+}
+
+.container {
+    @apply flex items-start py-2 px-5 bg-white rounded;
+}
+
+.heading {
+    @apply text-start m-2 font-medium;
+}
+
+.category_container {
+    @apply flex flex-row flex-wrap;
+}
+
+.category {
+    @apply mr-4 flex items-center my-1;
+}
+
+.category_label {
+    @apply ml-1 text-gray-700;
+}

@@ -1,0 +1,35 @@
+.product_card_container{
+    @apply flex items-center justify-between ;
+}
+
+.product_img {
+    @apply object-cover w-[150px] h-full rounded-r-lg mr-4;
+}
+
+.textual_content {
+    @apply flex items-center px-3;
+}
+
+.info_container {
+    @apply py-3 flex flex-col justify-center;
+}
+
+.goto_btn {
+    @apply text-white mr-4 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;
+}
+
+.product_title {
+    @apply text-xl font-semibold tracking-tight text-gray-900;
+}
+
+.price {
+    @apply text-xl font-bold text-gray-900;
+}
+
+.score_bar {
+    @apply w-full h-5 bg-green-300 rounded-r-lg overflow-hidden;
+  }
+  
+  .bar_fill {
+    @apply h-full bg-green-600 transition-all ease-linear;
+  }

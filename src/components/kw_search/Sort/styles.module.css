@@ -1,0 +1,24 @@
+.wrapper {
+    @apply col-span-1 flex flex-col;
+}
+
+.container {
+    @apply flex items-start justify-between bg-white rounded ;
+}
+
+.heading{
+    @apply text-start m-2 font-medium;
+}
+
+.select{
+    @apply w-20 h-8 ml-1 rounded outline-none cursor-pointer p-1;
+}
+
+.arrow_btn{
+    @apply flex w-8 h-8 ml-1 items-center justify-center rounded outline-none cursor-pointer bg-transparent;
+}
+
+.down_arrow,
+.up_arrow{
+    @apply text-lg font-bold text-black;
+}

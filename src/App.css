@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrapper {
+  @apply bg-slate-100 w-[100%] min-h-screen;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  @apply flex flex-col rounded-md shadow-lg shadow-green-600;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.body {
+  @apply flex px-8;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar {
+  @apply fixed top-0 z-50 flex items-center h-16 justify-between bg-[#4287f5] w-[100%];
 }
 
-.App-link {
-  color: #61dafb;
+.navlink_container {
+  @apply flex mr-8;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navlink {
+  @apply text-white cursor-pointer mr-4;
 }
+
+.logo {
+  @apply w-[100px] object-contain ml-4;
+}
+
+.filter_container {
+  @apply mr-8 max-w-xs fixed top-20 w-[400px] ;
+}
+
+.table_container {
+  @apply flex flex-col items-center ml-[400px];
+}
+
+.chat_container {
+  @apply flex flex-col items-start justify-between w-screen mt-20;
+}
+
+/* .filter_grid {
+  @apply grid grid-cols-6 my-8;
+} */

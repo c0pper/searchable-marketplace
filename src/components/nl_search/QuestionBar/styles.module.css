@@ -1,0 +1,3 @@
+.search {
+    @apply fixed bottom-0 w-full mb-4 h-10 outline-none rounded text-sm p-4;
+}

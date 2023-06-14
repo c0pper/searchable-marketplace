@@ -1,0 +1,11 @@
+.container {
+    @apply w-[calc(100%-20px)] h-11 mt-8 flex items-center justify-end z-50;
+}
+
+.page_btn {
+    @apply rounded-md w-7 h-7 flex items-center justify-center mx-1 cursor-pointer shadow-lg shadow-slate-600 bg-white;
+}
+
+.active {
+    @apply bg-blue-500 text-white;
+}

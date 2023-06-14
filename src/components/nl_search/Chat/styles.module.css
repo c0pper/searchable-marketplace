@@ -1,0 +1,11 @@
+.message_container {
+    @apply flex max-w-[50%];
+}
+
+.svg_image {
+    @apply w-8 h-8 mr-4;
+}
+
+.answer_container {
+    @apply flex flex-col bg-slate-300 rounded p-3 ;
+}

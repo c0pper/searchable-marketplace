@@ -1,0 +1,44 @@
+.product{
+    @apply flex flex-col p-3 justify-around mt-2 mb-3 shadow-lg shadow-slate-800 cursor-pointer transition-all ease-linear rounded bg-white hover:scale-110;
+}
+
+.product_img{
+    @apply object-contain mx-3;
+}
+
+.product_title{
+    @apply text-sm font-medium;
+}
+
+.category_container{
+    @apply flex items-center;
+}
+
+.product_category{
+    @apply text-base font-normal;
+}
+
+.rating_container{
+    @apply flex items-center;
+}
+
+.star_img{
+    @apply w-6 h-6 mr-1;
+}
+
+
+.product_rating{
+    @apply text-base font-normal;
+}
+
+.test{
+    @apply p-4 bg-cyan-400 rounded-md flex items-center justify-center;
+}
+
+.test2 {
+    @apply p-8 bg-amber-300;
+}
+
+.product_grid {
+    @apply grid grid-cols-4 gap-4;
+}
