@@ -1,5 +1,5 @@
 .product_card_container{
-    @apply flex items-center justify-between ;
+    @apply flex items-center justify-between;
 }
 
 .product_img {
